@@ -1,0 +1,24 @@
+.top{
+    width: 100vw;
+    .description{
+        width: 40vw;
+        padding-top: 11vw;
+        padding-bottom: 7vw;
+        padding-left: 25vw;
+        .top_tit{
+            width: 100%;
+            font-size: 3.75vw;
+            line-height: 1.1;
+            color: #fff;
+            padding-bottom: 0.45em;
+            .name{
+                color: #17DD96;
+            }
+        }
+        .top_txt{
+            font-size: max(14px, 0.83333vw);
+            line-height: 1.6;
+            color: #fff;
+        }
+    }
+}

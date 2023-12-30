@@ -1,0 +1,10 @@
+@use "sass:math";
+@function to-vw($size, $base : 1920){
+    @return math.div($size, $base) * 100vw
+};
+@function to-vh($size, $base : 1080){
+    @return math.div($size, $base) * 100vh
+};
+@function to-em($size, $base : 10){
+    @return math.div($size, $base) * 1em
+};

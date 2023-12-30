@@ -1,0 +1,73 @@
+h1,
+h2,
+h3,
+input,
+select,
+ul,
+li,
+p,
+button,
+textarea {
+  margin: 0px;
+  padding: 0px;
+}
+
+div:focus,
+section:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  border: none;
+  background: none;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: "Helvetica Neue", "Pretendard", sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input[type=text]:focus,
+textarea:focus {
+  outline: none;
+}
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 30px;
+}
+.header .logo_section {
+  width: 28px;
+  height: 22px;
+}
+.header .menu {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+body {
+  font-family: "Questrial", "Pretendard", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  word-break: keep-all;
+  word-wrap: break-word;
+  padding: 0px;
+  margin: 0px;
+  background-color: #0C0C0C;
+}/*# sourceMappingURL=project.css.map */
